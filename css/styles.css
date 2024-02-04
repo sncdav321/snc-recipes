@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0 1rem;
+  font-family: cursive;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/food_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  letter-spacing: 0.13rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 3rem 0;
+}
+
+ul {
+  max-width: 275px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li {
+  margin: 0 0 1rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  margin-left: 0.5rem;
+  transition: 0.15s;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  ul {
+    max-width: 245px;
+  }
+
+  li {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  ul {
+    max-width: 215px;
+  }
+
+  li {
+    font-size: 1.1rem;
+  }
+}
